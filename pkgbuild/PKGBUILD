@@ -26,7 +26,8 @@ pkgrel=$(date +%H%M)
 arch=('any')
 license=('MIT')
 url="https://github.com/big-comm/${pkgname}"
-source=("git+${url}.git")
+_gitbranch="main"
+source=("git+${url}.git#branch=${_gitbranch}")
 md5sums=('SKIP')
 
 # Automatically detect and use the correct install file
