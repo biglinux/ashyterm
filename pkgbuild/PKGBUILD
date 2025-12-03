@@ -14,11 +14,14 @@ depends=(
     'python-gobject'
     'python-setproctitle'
     'python-requests'
+    'python-psutil'
     'sshpass'
     'rsync'
     'vte4'
     'libchildenv' # Optional, but recommended to improve GTK memory management.
     'mimalloc' # Optional, but recommended to improve GTK memory management.
+    'python-regex' # Optional, Improved syntax highlighting performance'
+    'python-pygments' # Optional, Enhanced syntax highlighting in AI chat'
 )
 makedepends=(
     'python-build'
